@@ -2,11 +2,11 @@ name: First Workflow
 on : workflow_dispatch
 jobs:
   first-job:
-    runs-on: macOS
+    runs-on: macos-latest
     steps:
     - name: Print greeting
       run : echo "Hello World!"
     - name: Print goodbye
-      run : ecxho "Done - bye!"
+      run : echo "Done - bye!"
   
 
